@@ -1,0 +1,36 @@
+openssl [test platform:rpm]  # from collection amazon.aws
+gcc [test platform:rpm]  # from collection amazon.aws
+python3-devel [test platform:rpm]  # from collection amazon.aws, ansible.netcommon, ansible.utils, cisco.asa, splunk.es
+gcc-c++ [doc test platform:rpm]  # from collection ansible.netcommon, ansible.utils, cisco.asa, splunk.es
+libyaml-devel [test platform:rpm]  # from collection ansible.netcommon
+libyaml-dev [test platform:dpkg]  # from collection ansible.netcommon
+python3 [test platform:rpm]  # from collection ansible.netcommon, ansible.utils, cisco.asa, splunk.es
+gcc [compile test platform:rpm]  # from collection ansible.netcommon
+libssh-devel [compile test platform:rpm]  # from collection ansible.netcommon
+python3-Cython [test platform:fedora-35]  # from collection ansible.netcommon
+python38-Cython [compile platform:centos-8 platform:rhel-8]  # from collection ansible.netcommon
+python38-six [platform:centos-8 platform:rhel-8]  # from collection ansible.netcommon
+python38-lxml [platform:centos-8 platform:rhel-8]  # from collection ansible.netcommon
+findutils [compile platform:centos-8 platform:rhel-8]  # from collection ansible.netcommon
+gcc [compile platform:centos-8 platform:rhel-8]  # from collection ansible.netcommon, openstack.cloud, ovirt.ovirt
+make [compile platform:centos-8 platform:rhel-8]  # from collection ansible.netcommon
+python38-devel [compile platform:centos-8 platform:rhel-8]  # from collection ansible.netcommon, openstack.cloud, ovirt.ovirt
+python38-cffi [platform:centos-8 platform:rhel-8]  # from collection ansible.netcommon
+python38-cryptography [platform:centos-8 platform:rhel-8]  # from collection ansible.netcommon, openstack.cloud
+python38-pycparser [platform:centos-8 platform:rhel-8]  # from collection ansible.netcommon
+python38-pytz [platform:centos-8 platform:rhel-8]  # from collection awx.awx
+python38-requests [platform:centos-8 platform:rhel-8]  # from collection awx.awx, openstack.cloud, redhatinsights.insights
+python38-pyyaml [platform:centos-8 platform:rhel-8]  # from collection awx.awx
+kubernetes-client [platform:fedora]  # from collection community.kubernetes, kubernetes.core
+libcurl-devel [compile platform:centos-8 platform:rhel-8]  # from collection ovirt.ovirt
+libxml2-devel [compile platform:centos-8 platform:rhel-8]  # from collection ovirt.ovirt
+openssl-devel [compile platform:centos-8 platform:rhel-8]  # from collection ovirt.ovirt
+qemu-img [platform:centos-8 platform:rhel-8]  # from collection ovirt.ovirt
+python3-rpm [(platform:redhat platform:base-py3)]  # from collection theforeman.foreman
+rpm-python [(platform:redhat platform:base-py2)]  # from collection theforeman.foreman
+python38-devel [platform:rpm compile]  # from collection user
+python3-netaddr [platform:rpm]  # from collection user
+python3-passlib [platform:rpm epel]  # from collection user
+subversion [platform:rpm]  # from collection user
+subversion [platform:dpkg]  # from collection user
+git-lfs [platform:rpm]  # from collection user
